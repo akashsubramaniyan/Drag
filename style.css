@@ -5,6 +5,13 @@
 }
 body{
     background-color: sandybrown;
+    
+}
+.images{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 .fill{
     background-image: url('http://source.unsplash.com/random/150*150');
@@ -22,14 +29,23 @@ body{
     display: inline-block;
    margin: 4px;
    border: 3px solid grey;
+
+   
 }
 .hold{
-    border: #ccc solid 4px;
+    border: #ccc dashed 4px;
 }
 .hovered{
     background-color: #fff;
-    border-style: dashed;
+    border-style:dashed blue;
 }
 .invisible{
     display:none;
+}
+
+.text-center{
+    text-align: center;
+    color:red;
+    font-size: 30px;
+    margin-top: 100px;
 }
